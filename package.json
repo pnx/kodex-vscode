@@ -1,0 +1,26 @@
+{
+  "name": "kodex",
+  "displayName": "kodex",
+  "description": "Dark nice theme with smooth colors",
+  "version": "0.1.0",
+  "publisher": "pnx",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnx/kodex-vscode"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kodex",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kodex-color-theme.json"
+      }
+    ]
+  }
+}
