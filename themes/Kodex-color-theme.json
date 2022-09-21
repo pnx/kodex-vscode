@@ -239,6 +239,17 @@
                 "foreground": "#7CCFAF",
             }
         },
+        {
+            "name": "Invalid",
+            "scope": [
+                "invalid",
+                "invalid.illegal"
+            ],
+            "settings": {
+                "foreground": "#FF0000",
+                "fontStyle": "underline"
+            }
+        },
         /*
 		{
 			"name": "Colors",
