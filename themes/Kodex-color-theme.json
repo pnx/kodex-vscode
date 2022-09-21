@@ -183,7 +183,7 @@
 			}
 		},
         {
-            "name": "Types, Macros, Character Excape",
+            "name": "Types, Macros, Character Escape",
             "scope": [
                 "storage.type.primitive",
                 "storage.type.built-in",
