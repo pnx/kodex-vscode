@@ -1,6 +1,6 @@
 {
-	"name": "Kodex",
-	"colors": {
+    "name": "Kodex",
+    "colors": {
         "activityBar.background": "#282c34",
         "activityBar.foreground": "#8AC6F2",
         "activityBar.activeBackground": "#383e49",
@@ -147,41 +147,41 @@
         "titleBar.inactiveForeground": "#6b717d",
         "tree.indentGuidesStroke": "#ffffff1d",
         "walkThrough.embeddedEditorBackground": "#2e3440"
-	},
-	"tokenColors": [
+    },
+    "tokenColors": [
         {
-			"name": "String, Symbols, Inherited Class, Markup Heading",
-			"scope": [
-				"string",
-				"constant.other.symbol",
-				"constant.other.key",
-				"entity.other.inherited-class",
-				"markup.heading",
-				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
-			],
-			"settings": {
-				"foreground": "#99C"
-			}
-		},
+            "name": "String, Symbols, Inherited Class, Markup Heading",
+            "scope": [
+                "string",
+                "constant.other.symbol",
+                "constant.other.key",
+                "entity.other.inherited-class",
+                "markup.heading",
+                "markup.inserted.git_gutter",
+                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+            ],
+            "settings": {
+                "foreground": "#99C"
+            }
+        },
         {
-			"name": "Numbers, Constants",
-			"scope": [
-				"constant.numeric",
+            "name": "Numbers, Constants",
+            "scope": [
+                "constant.numeric",
                 "constant.character"
                 // "constant.language",
-				// "support.constant",
-				// "constant.character",
-				// "constant.escape",
-				// "variable.parameter",
-				// "keyword.other.unit",
-				// "keyword.other",
+                // "support.constant",
+                // "constant.character",
+                // "constant.escape",
+                // "variable.parameter",
+                // "keyword.other.unit",
+                // "keyword.other",
                 // "support.type"
-			],
-			"settings": {
-				"foreground": "#BB5251"
-			}
-		},
+            ],
+            "settings": {
+                "foreground": "#BB5251"
+            }
+        },
         {
             "name": "Types, Macros, Character Escape, Special Tags",
             "scope": [
@@ -193,29 +193,29 @@
                 "constant.language",
                 "constant.character.escape",
                 "keyword.blade"
-			],
-			"settings": {
-				"foreground": "#8AC6F2"
-			}
+            ],
+            "settings": {
+                "foreground": "#8AC6F2"
+            }
         },
-		{
-			"name": "Comment",
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"foreground": "#CC817F"
-			}
-		},
         {
-			"name": "Keyword, Namespace",
-			"scope": [
-				"keyword.control",
+            "name": "Comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#CC817F"
+            }
+        },
+        {
+            "name": "Keyword, Namespace",
+            "scope": [
+                "keyword.control",
                 "keyword.other",
                 "storage.type.class",
                 "storage.modifier",
-				"storage.type.modifier",
+                "storage.type.modifier",
                 "storage.type.struct",
                 "entity.name.scope-resolution",
                 "storage.type.namespace",
@@ -224,11 +224,11 @@
                 "entity.name.tag",
                 "support.class",
                 "punctuation.section.embedded"
-			],
-			"settings": {
-				"foreground": "#FC9"
-			}
-		},
+            ],
+            "settings": {
+                "foreground": "#FC9"
+            }
+        },
         {
             "name": "Variables",
             "scope": [
@@ -250,5 +250,5 @@
                 "fontStyle": "underline"
             }
         },
-	]
+    ]
 }
