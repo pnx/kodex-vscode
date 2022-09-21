@@ -183,14 +183,16 @@
 			}
 		},
         {
-            "name": "Types, Macros, Character Escape",
+            "name": "Types, Macros, Character Escape, Special Tags",
             "scope": [
                 "storage.type.primitive",
                 "storage.type.built-in",
                 "entity.name.type.parameter.cpp",
+                "entity.other.attribute-name",
                 "meta.preprocessor.macro.cpp",
                 "constant.language",
-                "constant.character.escape"
+                "constant.character.escape",
+                "keyword.blade"
 			],
 			"settings": {
 				"foreground": "#8AC6F2"
@@ -210,6 +212,7 @@
 			"name": "Keyword, Namespace",
 			"scope": [
 				"keyword.control",
+                "keyword.other",
                 "storage.type.class",
                 "storage.modifier",
 				"storage.type.modifier",
@@ -218,12 +221,24 @@
                 "storage.type.namespace",
                 "storage.type.enum",
                 "support.type.property-name",
-                "entity.name.tag"
+                "entity.name.tag",
+                "support.class",
+                "punctuation.section.embedded"
 			],
 			"settings": {
 				"foreground": "#FC9"
 			}
 		},
+        {
+            "name": "Variables",
+            "scope": [
+                "variable.scss",
+                "variable.other.php"
+            ],
+            "settings": {
+                "foreground": "#7CCFAF",
+            }
+        },
         /*
 		{
 			"name": "Colors",
