@@ -174,7 +174,8 @@
             "name": "Numbers, Constants",
             "scope": [
                 "constant.numeric",
-                "constant.character"
+                "constant.character",
+                "constant.source.cmake"
                 // "constant.language",
                 // "support.constant",
                 // "constant.character",
@@ -198,6 +199,7 @@
                 "storage.type.numeric.go",
                 "storage.type.boolean.go",
                 "storage.type.byte.go",
+                "storage.source.cmake",
                 "keyword.interface.go",
                 "entity.name.type.parameter.cpp",
                 "entity.other.attribute-name",
@@ -225,6 +227,7 @@
             "scope": [
                 "keyword.control",
                 "keyword.other",
+                "keyword.cmake",
                 "keyword.import.go",
                 "keyword.package.go",
                 "keyword.function.go",
@@ -236,6 +239,7 @@
                 "storage.type.modifier",
                 "storage.type.struct",
                 "entity.name.scope-resolution",
+                "entity.source.cmake",
                 "storage.type.namespace",
                 "storage.type.enum",
                 "support.type.property-name",
@@ -250,6 +254,7 @@
         {
             "name": "Variables",
             "scope": [
+                "variable.source.cmake",
                 "variable.scss",
                 "variable.other.php"
             ],
