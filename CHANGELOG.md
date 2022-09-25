@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.2] - 2022-09-25
+### Added
+- Highlighting for `golang` and `cmake`.
+
 ## [0.1.1] - 2022-09-21
 ### Added
 - Highlighting for `variables` in some languages.
