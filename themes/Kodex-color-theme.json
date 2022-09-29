@@ -238,6 +238,7 @@
                 "storage.modifier",
                 "storage.type.modifier",
                 "storage.type.struct",
+                "storage.type.function.php",
                 "entity.name.scope-resolution",
                 "entity.source.cmake",
                 "storage.type.namespace",
@@ -256,7 +257,8 @@
             "scope": [
                 "variable.source.cmake",
                 "variable.scss",
-                "variable.other.php"
+                "variable.other.php",
+                "variable.language.this.php",
             ],
             "settings": {
                 "foreground": "#7CCFAF"
