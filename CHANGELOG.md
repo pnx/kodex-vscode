@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.3] - 2022-09-29
+### Added
+- fix `$this` variable and `function` keyword for `php`.
+
 ## [0.1.2] - 2022-09-25
 ### Added
 - Highlighting for `golang` and `cmake`.
