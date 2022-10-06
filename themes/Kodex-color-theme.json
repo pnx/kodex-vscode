@@ -174,7 +174,8 @@
             "scope": [
                 "constant.numeric",
                 "constant.character",
-                "constant.source.cmake"
+                "constant.source.cmake",
+                "keyword.other.unit.hexadecimal.go",
                 // "constant.language",
                 // "support.constant",
                 // "constant.character",
