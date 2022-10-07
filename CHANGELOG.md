@@ -6,6 +6,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.4] - 2022-10-07
+### Added
+- Golang: highlight hexadecimals as numbers
+- JavaScript: support for JavaScript
+
+### Removed
+- PHP: highlighting of class name of an inherited class.
+
 ## [0.1.3] - 2022-09-29
 ### Added
 - fix `$this` variable and `function` keyword for `php`.
