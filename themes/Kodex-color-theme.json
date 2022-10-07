@@ -236,6 +236,8 @@
                 "keyword.struct.go",
                 "storage.type.class",
                 "storage.modifier",
+                "storage.type.js",
+                "storage.type.function.js",
                 "storage.type.modifier",
                 "storage.type.struct",
                 "storage.type.function.php",
