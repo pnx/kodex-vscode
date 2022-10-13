@@ -6,6 +6,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+### Added
+- debug icon colors.
+- debug console colors.
+
+### Changed
+- debug status bar colors.
+- statusBarItem.hoverBackground to transparent black.
+
 ## [0.1.4] - 2022-10-07
 ### Added
 - Golang: highlight hexadecimals as numbers
