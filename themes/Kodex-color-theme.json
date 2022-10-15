@@ -217,6 +217,9 @@
                 "keyword.interface.go",
                 "entity.name.type.parameter.cpp",
                 "entity.other.attribute-name",
+                "support.type.primitive.ts",
+                "variable.other.constant.object.ts",
+                "variable.other.object.ts",
                 "meta.preprocessor.macro.cpp",
                 "constant.language",
                 "constant.character.escape",
@@ -260,6 +263,7 @@
                 "storage.type.namespace",
                 "storage.type.enum",
                 "support.type.property-name",
+                "storage.type.ts",
                 "entity.name.tag",
                 "support.class",
                 "punctuation.section.embedded"
@@ -275,6 +279,9 @@
                 "variable.scss",
                 "variable.other.php",
                 "variable.language.this.php",
+                "variable.other.constant.ts",
+                "meta.object.member.ts",
+                "meta.template.expression.ts",
             ],
             "settings": {
                 "foreground": "#7CCFAF"
