@@ -6,9 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.5] - 2022-10-15
+
 ### Added
 - debug icon colors.
 - debug console colors.
+- TypeScript: Added support for TypeScript
 
 ### Changed
 - debug status bar colors.
