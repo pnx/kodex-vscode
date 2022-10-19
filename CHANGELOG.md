@@ -4,6 +4,14 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.2] - 2022-10-19
+
+### Added
+- TypeScript: Added support for TypeScript again as it got removed by accident in a previous version.
+
+### Changed
+ - Change yellow color to `#fc9`
+
 ## [0.2.1] - 2022-10-19
 
 ### Changed
