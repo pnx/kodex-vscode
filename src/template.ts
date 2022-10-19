@@ -1,4 +1,4 @@
-import * as chroma from 'chroma-js'
+import chroma from 'chroma-js'
 import * as helper from './color_helpers'
 
 export default (name: string, scheme: any) => {
