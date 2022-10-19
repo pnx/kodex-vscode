@@ -391,6 +391,7 @@ export default (name: string, scheme: any) => {
                     "entity.source.cmake",
                     "storage.type.namespace",
                     "storage.type.enum",
+                    "storage.type.function.python",
                     "support.type.property-name",
                     "entity.name.tag",
                     "support.class",
@@ -406,7 +407,8 @@ export default (name: string, scheme: any) => {
                     "variable.source.cmake",
                     "variable.scss",
                     "variable.other.php",
-                    "variable.language.this.php"
+                    "variable.language.this.php",
+                    "variable.parameter.function"
                 ],
                 "settings": {
                     "foreground": scheme.syntax.variable
