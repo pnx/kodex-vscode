@@ -10,7 +10,7 @@ const colors = {
     Green: "#7ccfaf",
     Magenta: "#99c",
     Red: "#cc817f",
-    Yellow: "#f0dfaf",
+    Yellow: "#fc9",
     Orange: "#de935f",
 
     bg: "#1d232c",
