@@ -349,6 +349,9 @@ export default (name: string, scheme: any) => {
                     "keyword.interface.go",
                     "entity.name.type.parameter.cpp",
                     "entity.other.attribute-name",
+                    "support.type.primitive.ts",
+                    "variable.other.constant.object.ts",
+                    "variable.other.object.ts",
                     "meta.preprocessor.macro.cpp",
                     "constant.language",
                     "constant.character.escape",
@@ -387,6 +390,7 @@ export default (name: string, scheme: any) => {
                     "storage.type.modifier",
                     "storage.type.struct",
                     "storage.type.function.php",
+                    "storage.type.ts",
                     "entity.name.scope-resolution",
                     "entity.source.cmake",
                     "storage.type.namespace",
@@ -408,6 +412,9 @@ export default (name: string, scheme: any) => {
                     "variable.scss",
                     "variable.other.php",
                     "variable.language.this.php",
+                    "variable.other.constant.ts",
+                    "meta.object.member.ts",
+                    "meta.template.expression.ts",
                     "variable.parameter.function"
                 ],
                 "settings": {
