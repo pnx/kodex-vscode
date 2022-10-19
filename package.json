@@ -20,7 +20,7 @@
         "label": "Kodex",
         "theme": "default",
         "uiTheme": "vs-dark",
-        "path": "./themes/Kodex-color-theme.json"
+        "path": "./themes/default.json"
       }
     ]
   },
