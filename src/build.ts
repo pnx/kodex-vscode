@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 import * as path from 'path'
-import scheme from './scheme'
+import theme_default from './theme_default'
 import template from './template'
 
 const filePath = (name: string) : string =>
@@ -13,4 +13,4 @@ const generate = (name: string, filename: string, scheme: any) => {
 	console.log(`Generated ${name}!`)
 }
 
-generate('Kodex', 'Kodex-color-theme', scheme)
+generate('Kodex', 'Kodex-color-theme', theme_default)
