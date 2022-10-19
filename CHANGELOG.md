@@ -4,7 +4,14 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.2.0] - 2022-10-19
+
+### Added
+- Template system using typescript.
+- Basic python support.
+
+### Changed
+- Minor color changes throughout the theme due to the new template system.
 
 ## [0.1.5] - 2022-10-15
 
