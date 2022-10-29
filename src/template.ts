@@ -383,6 +383,7 @@ export default (name: string, scheme: any) => {
                     "keyword.var.go",
                     "keyword.type.go",
                     "keyword.struct.go",
+                    "keyword.const.go",
                     "storage.type.class",
                     "storage.modifier",
                     "storage.type.js",
