@@ -4,6 +4,15 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.4] - 2022-10-30
+
+### Added
+ - Go: syntax highlighting for `const` keyword.
+
+## Changes
+ - UI: Panel active border color now uses accent color
+ - UI: Fix contrast on input options (accent color on background, and light/dark foreground depending on background)
+
 ## [0.2.3] - 2022-10-19
 
 ### Changed
