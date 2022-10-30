@@ -1,6 +1,8 @@
 import chroma from 'chroma-js'
 import * as helper from './color_helpers'
 
+// https://code.visualstudio.com/api/references/theme-color
+
 export default (name: string, scheme: any) => {
 
     // Helper variables.
