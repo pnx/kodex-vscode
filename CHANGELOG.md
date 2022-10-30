@@ -17,7 +17,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Go: syntax highlighting for `const` keyword.
 
-## Changes
+### Changes
 
 - UI: Panel active border color now uses accent color
 - UI: Fix contrast on input options (accent color on background, and light/dark foreground depending on background)
