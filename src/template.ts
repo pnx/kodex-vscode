@@ -209,6 +209,7 @@ export default (name: string, scheme: any) => {
             // Panel
             "panel.border": scheme.ui.border,
             "panel.background": bg[3],
+            "panelTitle.activeBorder": scheme.ui.accent,
 
             // Peak View
             "peekView.border": scheme.ui.accent,

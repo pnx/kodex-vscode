@@ -131,6 +131,7 @@
         "minimapGutter.modifiedBackground": "#fc9",
         "panel.border": "#2c323c",
         "panel.background": "#1d232c",
+        "panelTitle.activeBorder": "#8ac6f2",
         "peekView.border": "#8ac6f2",
         "peekViewTitle.background": "#8ac6f233",
         "peekViewTitleDescription.foreground": "#bebebe",
