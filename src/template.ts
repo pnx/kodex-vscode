@@ -397,6 +397,8 @@ export default (name: string, scheme: any) => {
                     "storage.type.modifier",
                     "storage.type.struct",
                     "storage.type.function.php",
+                    "storage.type.function.shell",
+                    "support.function.builtin.shell",
                     "storage.type.ts",
                     "entity.name.scope-resolution",
                     "entity.source.cmake",
