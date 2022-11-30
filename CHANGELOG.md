@@ -4,6 +4,13 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.5] - 2022-11-30
+
+### Added
+
+- Go: syntax highlighting for octal numbers
+- Shell: Improved highligting for functions.
+
 ## [0.2.4] - 2022-10-30
 
 ### Added
