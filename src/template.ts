@@ -325,7 +325,8 @@ export default (name: string, scheme: any) => {
                 "name": "Numbers",
                 "scope": [
                     "constant.numeric",
-                    "keyword.other.unit.hexadecimal.go"
+                    "keyword.other.unit.hexadecimal.go",
+                    "keyword.other.unit.octal.go"
                 ],
                 "settings": {
                     "foreground": scheme.syntax.number
