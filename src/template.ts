@@ -401,6 +401,7 @@ export default (name: string, scheme: any) => {
                     "storage.type.function.php",
                     "storage.type.function.shell",
                     "support.function.builtin.shell",
+                    "support.function.builtin.go",
                     "storage.type.ts",
                     "entity.name.scope-resolution",
                     "entity.source.cmake",
