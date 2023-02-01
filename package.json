@@ -32,6 +32,8 @@
     "typescript": "^4.8.4"
   },
   "scripts": {
-    "build": "ts-node ./src/build.ts"
+    "build": "ts-node ./src/build.ts",
+    "package": "vsce package",
+    "publish": "vsce publish"
   }
 }
