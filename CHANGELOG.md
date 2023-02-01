@@ -4,6 +4,13 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.6] - 2023-02-01
+
+### Added
+
+- Go: syntax highlighting for `chan` keyword
+- Go: syntax highlighting for builtin functions.
+
 ## [0.2.5] - 2022-11-30
 
 ### Added
