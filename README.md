@@ -2,6 +2,8 @@
 
 Dark nice theme with smooth colors
 
+![Screenshot 0](/screenshots/screenshot0.png)
+
 Adopted theme from [kodex Atom](https://github.com/pnx/kodex-syntax) for VS Code.
 
 Based on [OneDark-Pro](https://github.com/Binaryify/OneDark-Pro)
