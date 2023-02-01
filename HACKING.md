@@ -3,8 +3,23 @@
 ## Folder structure
 
 * This folder contains all of the files necessary for your color theme extension.
-* `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/Kodex-color-theme.json` - the color theme definition file.
+* `package.json` - this is the manifest file that defines the location of the theme file and spec1ifies the base theme of the theme.
+* `src/theme_default.ts` - the color theme definition file.
+* `themes/default.json` - the rendered color theme.
+
+## Compiling
+
+Install dependancies
+
+```
+npm install -i
+```
+
+Update theme
+
+```
+npm run build
+```
 
 ## Get up and running straight away
 
