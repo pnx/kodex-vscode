@@ -15,4 +15,3 @@
 ## Make changes
 
 * Changes to the theme file are automatically applied to the Extension Development Host window.
-
