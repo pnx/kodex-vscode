@@ -354,6 +354,7 @@ export default (name: string, scheme: any) => {
                     "storage.type.byte.go",
                     "storage.source.cmake",
                     "keyword.interface.go",
+                    "keyword.channel.go",
                     "entity.name.type.parameter.cpp",
                     "entity.other.attribute-name",
                     "support.type.primitive.ts",
