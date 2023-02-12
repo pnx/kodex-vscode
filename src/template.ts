@@ -392,6 +392,7 @@ export default (name: string, scheme: any) => {
                     "keyword.type.go",
                     "keyword.struct.go",
                     "keyword.const.go",
+                    "keyword.map.go",
                     "storage.type.class",
                     "storage.modifier",
                     "storage.type.js",
