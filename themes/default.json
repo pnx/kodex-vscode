@@ -320,6 +320,17 @@
             }
         },
         {
+            "name": "Operator",
+            "scope": [
+                "keyword.operator.logical.go",
+                "keyword.operator.assignment.go",
+                "keyword.operator.comparison.go"
+            ],
+            "settings": {
+                "foreground": "#f1f1f1"
+            }
+        },
+        {
             "name": "Variables",
             "scope": [
                 "variable.source.cmake",
@@ -327,6 +338,8 @@
                 "variable.other.php",
                 "variable.language.this.php",
                 "variable.other.constant.ts",
+                "variable.other.declaration.go",
+                "variable.other.assignment.go",
                 "meta.object.member.ts",
                 "meta.template.expression.ts",
                 "variable.parameter.function"

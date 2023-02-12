@@ -419,6 +419,18 @@ export default (name: string, scheme: any) => {
                 }
             },
             {
+                "name": "Operator",
+                "scope": [
+                    "keyword.operator.logical.go",
+                    "keyword.operator.assignment.go",
+                    "keyword.operator.comparison.go",
+                    "keyword.operator.address.go"
+                ],
+                "settings": {
+                    "foreground": scheme.syntax.operator
+                }
+            },
+            {
                 "name": "Variables",
                 "scope": [
                     "variable.source.cmake",
