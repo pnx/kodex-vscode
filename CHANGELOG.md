@@ -4,6 +4,12 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.0] - 2023-02-12
+
+### Added
+
+- New variant of the theme: Kodex Arctic!
+
 ## [0.2.6] - 2023-02-01
 
 ### Added
