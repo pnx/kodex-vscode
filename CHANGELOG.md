@@ -4,6 +4,12 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.1] - 2023-02-12
+
+### Changed
+
+- Fix red color for Kodex Arctic
+
 ## [0.3.0] - 2023-02-12
 
 ### Added
