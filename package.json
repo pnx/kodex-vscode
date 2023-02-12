@@ -21,6 +21,12 @@
         "theme": "default",
         "uiTheme": "vs-dark",
         "path": "./themes/default.json"
+      },
+      {
+        "label": "Kodex Arctic",
+        "theme": "arctic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arctic.json"
       }
     ]
   },
