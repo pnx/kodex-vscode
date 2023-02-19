@@ -401,6 +401,7 @@ export default (name: string, scheme: any) => {
                     "storage.type.struct",
                     "storage.type.function.php",
                     "storage.type.function.shell",
+                    "storage.type.interface.php",
                     "support.function.builtin.shell",
                     "support.function.builtin.go",
                     "storage.type.ts",

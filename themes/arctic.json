@@ -302,6 +302,7 @@
                 "storage.type.struct",
                 "storage.type.function.php",
                 "storage.type.function.shell",
+                "storage.type.interface.php",
                 "support.function.builtin.shell",
                 "support.function.builtin.go",
                 "storage.type.ts",
@@ -324,7 +325,8 @@
             "scope": [
                 "keyword.operator.logical.go",
                 "keyword.operator.assignment.go",
-                "keyword.operator.comparison.go"
+                "keyword.operator.comparison.go",
+                "keyword.operator.address.go"
             ],
             "settings": {
                 "foreground": "#f1f1f1"
@@ -338,8 +340,6 @@
                 "variable.other.php",
                 "variable.language.this.php",
                 "variable.other.constant.ts",
-                "variable.other.declaration.go",
-                "variable.other.assignment.go",
                 "meta.object.member.ts",
                 "meta.template.expression.ts",
                 "variable.parameter.function"
