@@ -4,6 +4,15 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.2] - 2023-02-20
+
+### Added
+
+- PHP: Added `interface` keyword
+- Go: Added `map` keyword
+- Added "Operator" syntax class. (default text color)
+
+
 ## [0.3.1] - 2023-02-12
 
 ### Changed
