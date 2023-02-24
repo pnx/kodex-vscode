@@ -4,6 +4,12 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.3] - 2023-02-24
+
+### Added
+
+- Support for lua.
+
 ## [0.3.2] - 2023-02-20
 
 ### Added
