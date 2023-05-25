@@ -4,6 +4,13 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.4] - 2023-05-25
+
+### Changed
+
+- Better support for "keys" tokens.
+- Better support for "function" tokens.
+
 ## [0.3.3] - 2023-02-24
 
 ### Added
