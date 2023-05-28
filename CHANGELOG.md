@@ -4,6 +4,12 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.5] - 2023-05-28
+
+### Changed
+
+- Better support for "interface" tokens.
+
 ## [0.3.4] - 2023-05-25
 
 ### Changed
