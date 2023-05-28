@@ -403,7 +403,7 @@ export default (name: string, scheme: any) => {
                     "storage.type.function",
                     "storage.type.modifier",
                     "storage.type.struct",
-                    "storage.type.interface.php",
+                    "storage.type.interface",
                     "storage.type.namespace",
                     "storage.type.enum",
                     "support.type.property-name",
