@@ -406,6 +406,7 @@ export default (name: string, scheme: any) => {
                     "storage.type.interface",
                     "storage.type.namespace",
                     "storage.type.enum",
+                    "storage.type.type",
                     "support.type.property-name",
                     "support.function.builtin.shell",
                     "support.function.builtin.go",
