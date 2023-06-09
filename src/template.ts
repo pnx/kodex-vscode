@@ -383,6 +383,7 @@ export default (name: string, scheme: any) => {
             {
                 "name": "Keyword, Namespace",
                 "scope": [
+                    "keyword.operator",
                     "keyword.control",
                     "keyword.other",
                     "keyword.cmake",
