@@ -2,7 +2,7 @@
   "name": "kodex",
   "displayName": "kodex",
   "description": "Dark nice theme with smooth colors",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "publisher": "pnx",
   "engines": {
     "vscode": "^1.71.0"

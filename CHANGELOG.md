@@ -4,6 +4,13 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.6] - 2023-06-09
+
+### Changed
+
+- Better highlight for operator tokens.
+- Better highlight for some storage type tokens.
+
 ## [0.3.5] - 2023-05-28
 
 ### Changed
