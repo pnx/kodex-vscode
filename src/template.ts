@@ -424,10 +424,10 @@ export default (name: string, scheme: any) => {
             {
                 "name": "Operator",
                 "scope": [
-                    "keyword.operator.logical.go",
-                    "keyword.operator.assignment.go",
-                    "keyword.operator.comparison.go",
-                    "keyword.operator.address.go"
+                    "keyword.operator.logical",
+                    "keyword.operator.assignment",
+                    "keyword.operator.comparison",
+                    "keyword.operator.address"
                 ],
                 "settings": {
                     "foreground": scheme.syntax.operator
