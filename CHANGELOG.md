@@ -9,7 +9,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Changed
 
 - Refactor of all token scopes. trying to first style generic ones like "keyword", "type" and then
-  override for specific languages if needed. This results in more consistent themeing across languages.
+  override for specific languages if needed. This results in more consistent theming across languages.
 
 - Variables are now properly highlighted in most cases (as a result of the refactoring).
 
