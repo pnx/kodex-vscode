@@ -4,6 +4,15 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.4.0] - 2023-06-11
+
+### Changed
+
+- Refactor of all token scopes. trying to first style generic ones like "keyword", "type" and then
+  override for specific languages if needed. This results in more consistent themeing across languages.
+
+- Variables are now properly highlighted in most cases (as a result of the refactoring).
+
 ## [0.3.6] - 2023-06-09
 
 ### Changed

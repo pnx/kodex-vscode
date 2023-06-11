@@ -302,7 +302,8 @@ export default (name: string, scheme: any) => {
             {
                 "name": "String",
                 "scope": [
-                    "string"
+                    "string",
+                    "variable.parameter.url"
                 ],
                 "settings": {
                     "foreground": scheme.syntax.string
@@ -345,26 +346,16 @@ export default (name: string, scheme: any) => {
             {
                 "name": "Types, Macros, Character Escape, Special Tags",
                 "scope": [
+                    "storage.type",
+                    "meta.type",
+                    "meta.return.type",
+                    "entity.name.type",
+
+                    // Language specific
                     "keyword.interface.go",
                     "keyword.channel.go",
                     "keyword.local.lua",
                     "keyword.blade",
-                    "storage.type.primitive",
-                    "storage.type.built-in",
-                    "storage.type.string.go",
-                    "storage.type.error.go",
-                    "storage.type.numeric.go",
-                    "storage.type.boolean.go",
-                    "storage.type.byte.go",
-                    "storage.source.cmake",
-                    "support.type.primitive.ts",
-                    "entity.name.type.parameter.cpp",
-                    "entity.other.attribute-name",
-                    "variable.other.constant.object.ts",
-                    "variable.other.object.ts",
-                    "meta.preprocessor.macro.cpp",
-                    "constant.language",
-                    "constant.character.escape"
                 ],
                 "settings": {
                     "foreground": scheme.syntax.type
@@ -383,39 +374,28 @@ export default (name: string, scheme: any) => {
             {
                 "name": "Keyword, Namespace",
                 "scope": [
-                    "keyword.operator",
-                    "keyword.control",
-                    "keyword.other",
-                    "keyword.cmake",
-                    "keyword.import.go",
-                    "keyword.package.go",
-                    "keyword.function.go",
-                    "keyword.var.go",
-                    "keyword.type.go",
-                    "keyword.struct.go",
-                    "keyword.const.go",
-                    "keyword.map.go",
-                    "keyword.key",
-                    "support.class",
+                    "keyword",
+                    "keyword.operator.type",
+                    "keyword.operator.new",
+                    "keyword.operator.expression",
+
+                    "entity.name.namespace",
+                    "entity.name.tag",
+
+                    "punctuation.definition.evaluation.parens",
+
                     "storage.modifier",
                     "storage.type.class",
-                    "storage.type.js",
-                    "storage.type.ts",
                     "storage.type.function",
-                    "storage.type.modifier",
-                    "storage.type.struct",
                     "storage.type.interface",
-                    "storage.type.namespace",
-                    "storage.type.enum",
                     "storage.type.type",
+                    "storage.type.namespace",
                     "support.type.property-name",
-                    "support.function.builtin.shell",
-                    "support.function.builtin.go",
-                    "support.function.lua",
-                    "entity.name.scope-resolution",
-                    "entity.source.cmake",
-                    "entity.name.tag",
-                    "punctuation.section.embedded"
+
+                    // Language specific
+                    "storage.type.ts",
+                    "storage.type.js",
+                    "storage.type.rust",
                 ],
                 "settings": {
                     "foreground": scheme.syntax.keyword
@@ -424,10 +404,7 @@ export default (name: string, scheme: any) => {
             {
                 "name": "Operator",
                 "scope": [
-                    "keyword.operator.logical",
-                    "keyword.operator.assignment",
-                    "keyword.operator.comparison",
-                    "keyword.operator.address"
+                    "keyword.operator"
                 ],
                 "settings": {
                     "foreground": scheme.syntax.operator
@@ -436,14 +413,8 @@ export default (name: string, scheme: any) => {
             {
                 "name": "Variables",
                 "scope": [
-                    "variable.source.cmake",
-                    "variable.scss",
-                    "variable.other.php",
-                    "variable.parameter.function",
-                    "variable.language.this.php",
-                    "variable.other.constant.ts",
-                    "meta.object.member.ts",
-                    "meta.template.expression.ts"
+                    "variable",
+                    "punctuation.definition.variable",
                 ],
                 "settings": {
                     "foreground": scheme.syntax.variable
@@ -459,6 +430,18 @@ export default (name: string, scheme: any) => {
                     "foreground": "#FF0000",
                     "fontStyle": "underline"
                 }
+            },
+            {
+                "name:": "No color",
+                "scope": [
+                    "entity.name.type.class",
+                    "entity.name.type.interface",
+                    "entity.name.type.module",
+                ],
+                "settings": {
+                    "foreground": scheme.ui.fg,
+                    "fontStyle": "normal"
+                },
             }
         ]
     }
