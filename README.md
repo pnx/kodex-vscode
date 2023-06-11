@@ -7,7 +7,8 @@ Dark nice theme with smooth colors
 
 Arctic Variant
 
-![Screenshot 1](/screenshots/screenshot2.png)
+![Screenshot 2](/screenshots/screenshot2.png)
+![Screenshot 3](/screenshots/screenshot3.png)
 
 Adopted theme from [kodex Atom](https://github.com/pnx/kodex-syntax) for VS Code.
 
