@@ -316,7 +316,9 @@ export default (name: string, scheme: any) => {
                     "constant.other.key",
                     "markup.heading",
                     "markup.inserted.git_gutter",
-                    "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+                    "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+                    "punctuation.section.embedded.begin.php",
+                    "punctuation.section.embedded.end.php"
                 ],
                 "settings": {
                     "foreground": scheme.syntax.tag
