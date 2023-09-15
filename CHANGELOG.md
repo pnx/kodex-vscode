@@ -4,6 +4,13 @@ All notable changes to the "kodex" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.4.1] - 2023-09-15
+
+### Added
+
+* PHP: Added highlight of `<?php` and `?>` tags.
+* PHP: Added highlight of traits.
+
 ## [0.4.0] - 2023-06-11
 
 ### Changed
