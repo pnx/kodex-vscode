@@ -398,6 +398,7 @@ export default (name: string, scheme: any) => {
                     "storage.type.ts",
                     "storage.type.js",
                     "storage.type.rust",
+                    "storage.type.trait.php",
                 ],
                 "settings": {
                     "foreground": scheme.syntax.keyword
@@ -439,6 +440,7 @@ export default (name: string, scheme: any) => {
                     "entity.name.type.class",
                     "entity.name.type.interface",
                     "entity.name.type.module",
+                    "entity.name.type.trait.php",
                 ],
                 "settings": {
                     "foreground": scheme.ui.fg,

@@ -291,7 +291,8 @@
                 "support.type.property-name",
                 "storage.type.ts",
                 "storage.type.js",
-                "storage.type.rust"
+                "storage.type.rust",
+                "storage.type.trait.php"
             ],
             "settings": {
                 "foreground": "#fc9"
@@ -332,7 +333,8 @@
             "scope": [
                 "entity.name.type.class",
                 "entity.name.type.interface",
-                "entity.name.type.module"
+                "entity.name.type.module",
+                "entity.name.type.trait.php"
             ],
             "settings": {
                 "foreground": "#f1f1f1",
